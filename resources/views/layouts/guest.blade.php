@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name', 'Website UKM') }}</title>
-    @vite('resources/css/app.css')
+    <title>Guest Portal</title>
+    @vite(['resources/css/app.css', 'resources/js/app.jsx'])
 </head>
 <body class="bg-gray-100 text-gray-800">
     <!-- Navbar -->
